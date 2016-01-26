@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="galleryCellID2" id="cGe-sD-wUS" customClass="GalleryCell">
+            <rect key="frame" x="0.0" y="0.0" width="483" height="301"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="483" height="301"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" tag="11" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photo-1249182325215-d517de72c42d.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nak-CM-chI">
+                        <rect key="frame" x="0.0" y="0.0" width="483" height="301"/>
+                    </imageView>
+                    <view tag="9" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZV5-5i-SPg">
+                        <rect key="frame" x="0.0" y="-10" width="483" height="321"/>
+                        <color key="backgroundColor" red="0.027450980390000001" green="0.027450980390000001" blue="0.086274509799999996" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MEN PORTFOLIO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="uPF-kD-m4P">
+                        <rect key="frame" x="20" y="131" width="443" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="Giz-Yc-d2N"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="32"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a long subtitle text lorem" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JGI-2n-P2b">
+                        <rect key="frame" x="20" y="171" width="443" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="804-pB-nZM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Futura-MediumItalic" family="Futura" pointSize="17"/>
+                        <color key="textColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JGI-2n-P2b" secondAttribute="trailing" constant="20" id="3Av-KS-pGT"/>
+                <constraint firstItem="JGI-2n-P2b" firstAttribute="leading" secondItem="cGe-sD-wUS" secondAttribute="leading" constant="20" id="E4a-LA-Q9x"/>
+                <constraint firstItem="JGI-2n-P2b" firstAttribute="top" secondItem="cGe-sD-wUS" secondAttribute="centerY" constant="20" id="JSS-Zh-rHK"/>
+                <constraint firstAttribute="centerY" secondItem="uPF-kD-m4P" secondAttribute="bottom" constant="-20" id="OY9-7j-Vrx"/>
+                <constraint firstItem="ZV5-5i-SPg" firstAttribute="leading" secondItem="cGe-sD-wUS" secondAttribute="leading" id="R7C-Kf-dbS"/>
+                <constraint firstItem="uPF-kD-m4P" firstAttribute="leading" secondItem="cGe-sD-wUS" secondAttribute="leading" constant="20" id="SgL-qy-Uy4"/>
+                <constraint firstItem="nak-CM-chI" firstAttribute="top" secondItem="cGe-sD-wUS" secondAttribute="top" id="ev3-cB-OVR"/>
+                <constraint firstAttribute="bottom" secondItem="nak-CM-chI" secondAttribute="bottom" id="gvp-zu-fyV"/>
+                <constraint firstAttribute="trailing" secondItem="ZV5-5i-SPg" secondAttribute="trailing" id="hiq-bD-K9j"/>
+                <constraint firstItem="nak-CM-chI" firstAttribute="leading" secondItem="cGe-sD-wUS" secondAttribute="leading" id="kHN-dQ-2Kh"/>
+                <constraint firstItem="ZV5-5i-SPg" firstAttribute="top" secondItem="cGe-sD-wUS" secondAttribute="top" constant="-10" id="mpV-Xs-rRd"/>
+                <constraint firstAttribute="trailing" secondItem="uPF-kD-m4P" secondAttribute="trailing" constant="20" id="ozs-DT-9uo"/>
+                <constraint firstAttribute="bottom" secondItem="ZV5-5i-SPg" secondAttribute="bottom" constant="-10" id="sBo-Bs-pnh"/>
+                <constraint firstAttribute="trailing" secondItem="nak-CM-chI" secondAttribute="trailing" id="tzt-hJ-xUv"/>
+            </constraints>
+            <size key="customSize" width="474" height="261"/>
+            <connections>
+                <outlet property="imageView" destination="nak-CM-chI" id="Yjo-eE-Lla"/>
+                <outlet property="overlayView" destination="ZV5-5i-SPg" id="sAU-65-iNj"/>
+                <outlet property="subtitleLabel" destination="JGI-2n-P2b" id="F1Z-Bn-wA8"/>
+                <outlet property="titleLabel" destination="uPF-kD-m4P" id="7Ho-FH-6Tm"/>
+            </connections>
+            <point key="canvasLocation" x="473.5" y="380.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="photo-1249182325215-d517de72c42d.jpg" width="750" height="524"/>
+    </resources>
+</document>
