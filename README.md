@@ -35,21 +35,19 @@ If you want to add custom animations to your UICollectionViewCell subviews overw
         
         CGFloat alpha = diff/maxDiff;
         
+        //FADE-OUT THE BLACK OVERLAY WHEN THE CELL BECOMES ACTIVE
+        cell.overlayView.alpha = 1 - alpha;
         
-        if(exampleIndex == 0){
-            cell.overlayView.alpha = 1 - alpha;
-            cell.titleLabel.alpha = alpha;
+        //FADE-IN THE TITLE WHEN THE CELL BECOMES ACTIVE
+        cell.titleLabel.alpha = alpha;
+        
+        //ANIMATE THE SUBVIEW WHEN THE CELL BECOMES ACTIVE
+        if(i > currentIndex){
+            cell.titleLabel.transform = CGAffineTransformMakeScale(1 - (1- alpha) * 0.3, 1 - (1- alpha) * 0.3);
+            cell.subtitleLabel.transform = CGAffineTransformMakeTranslation(0, (1- alpha) * 30);
         }else{
-            cell.overlayView.alpha = 1 - alpha;
-            cell.titleLabel.alpha = alpha;
-            cell.subtitleLabel.alpha = alpha;
-            if(i > currentIndex){
-                cell.titleLabel.transform = CGAffineTransformMakeScale(1 - (1- alpha) * 0.3, 1 - (1- alpha) * 0.3);
-                cell.subtitleLabel.transform = CGAffineTransformMakeTranslation(0, (1- alpha) * 30);
-            }else{
-                cell.titleLabel.transform = CGAffineTransformIdentity;
-                cell.subtitleLabel.transform = CGAffineTransformIdentity;
-            }
+            cell.titleLabel.transform = CGAffineTransformIdentity;
+            cell.subtitleLabel.transform = CGAffineTransformIdentity;
         }
        
     }
