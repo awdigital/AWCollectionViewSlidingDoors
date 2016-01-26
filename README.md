@@ -60,4 +60,4 @@ If you want to add custom animations to your UICollectionViewCell subviews overw
 ## Tips
 * Use AutoLayout when setting up your UICollectionViewCell nib to achieve the resize effect you want.
 * Play aroud with the UIImageView ContentMode and the UILabel minimum scale 
-* Make sure your MaxRatio is bigger than your Images ratio to avoid a sudden jump during the Scaling of the Cell
+* Make sure your MaxRatio is bigger than your Images ratio to avoid a sudden jump during the resizing of the Cell
