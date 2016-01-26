@@ -13,8 +13,6 @@
 		7160320A1C576944001CB845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 716032081C576944001CB845 /* Main.storyboard */; };
 		7160320C1C576944001CB845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7160320B1C576944001CB845 /* Assets.xcassets */; };
 		7160320F1C576944001CB845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7160320D1C576944001CB845 /* LaunchScreen.storyboard */; };
-		7160321A1C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716032191C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests.m */; };
-		716032251C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 716032241C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests.m */; };
 		716032391C576B17001CB845 /* AWCollectionViewSlidingDoorLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 716032381C576B17001CB845 /* AWCollectionViewSlidingDoorLayout.m */; };
 		7160323B1C5774FD001CB845 /* galleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7160323A1C5774FD001CB845 /* galleryCell.xib */; };
 		7160323D1C5776B8001CB845 /* gallery.json in Resources */ = {isa = PBXBuildFile; fileRef = 7160323C1C5776B8001CB845 /* gallery.json */; };
@@ -39,23 +37,6 @@
 		716032B71C579906001CB845 /* settings_view.xib in Resources */ = {isa = PBXBuildFile; fileRef = 716032B61C579906001CB845 /* settings_view.xib */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		716032161C576944001CB845 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 716031F41C576943001CB845 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 716031FB1C576943001CB845;
-			remoteInfo = AWCollectionViewSlidingDoorsDemo;
-		};
-		716032211C576944001CB845 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 716031F41C576943001CB845 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 716031FB1C576943001CB845;
-			remoteInfo = AWCollectionViewSlidingDoorsDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		716031FC1C576943001CB845 /* AWCollectionViewSlidingDoorsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWCollectionViewSlidingDoorsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		716032001C576944001CB845 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -67,12 +48,6 @@
 		7160320B1C576944001CB845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7160320E1C576944001CB845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		716032101C576944001CB845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		716032151C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWCollectionViewSlidingDoorsDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		716032191C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWCollectionViewSlidingDoorsDemoTests.m; sourceTree = "<group>"; };
-		7160321B1C576944001CB845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		716032201C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWCollectionViewSlidingDoorsDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		716032241C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWCollectionViewSlidingDoorsDemoUITests.m; sourceTree = "<group>"; };
-		716032261C576944001CB845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		716032371C576B17001CB845 /* AWCollectionViewSlidingDoorLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWCollectionViewSlidingDoorLayout.h; sourceTree = "<group>"; };
 		716032381C576B17001CB845 /* AWCollectionViewSlidingDoorLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWCollectionViewSlidingDoorLayout.m; sourceTree = "<group>"; };
 		7160323A1C5774FD001CB845 /* galleryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = galleryCell.xib; sourceTree = "<group>"; };
@@ -107,20 +82,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		716032121C576944001CB845 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7160321D1C576944001CB845 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -128,8 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				716031FE1C576944001CB845 /* AWCollectionViewSlidingDoorsDemo */,
-				716032181C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests */,
-				716032231C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests */,
 				716031FD1C576943001CB845 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -138,8 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				716031FC1C576943001CB845 /* AWCollectionViewSlidingDoorsDemo.app */,
-				716032151C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests.xctest */,
-				716032201C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,24 +131,6 @@
 				716032001C576944001CB845 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		716032181C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				716032191C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests.m */,
-				7160321B1C576944001CB845 /* Info.plist */,
-			);
-			path = AWCollectionViewSlidingDoorsDemoTests;
-			sourceTree = "<group>";
-		};
-		716032231C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				716032241C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests.m */,
-				716032261C576944001CB845 /* Info.plist */,
-			);
-			path = AWCollectionViewSlidingDoorsDemoUITests;
 			sourceTree = "<group>";
 		};
 		716032331C5769A7001CB845 /* AWCollectionViewSlidingDoors */ = {
@@ -246,42 +185,6 @@
 			productReference = 716031FC1C576943001CB845 /* AWCollectionViewSlidingDoorsDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		716032141C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7160322C1C576944001CB845 /* Build configuration list for PBXNativeTarget "AWCollectionViewSlidingDoorsDemoTests" */;
-			buildPhases = (
-				716032111C576944001CB845 /* Sources */,
-				716032121C576944001CB845 /* Frameworks */,
-				716032131C576944001CB845 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				716032171C576944001CB845 /* PBXTargetDependency */,
-			);
-			name = AWCollectionViewSlidingDoorsDemoTests;
-			productName = AWCollectionViewSlidingDoorsDemoTests;
-			productReference = 716032151C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		7160321F1C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7160322F1C576944001CB845 /* Build configuration list for PBXNativeTarget "AWCollectionViewSlidingDoorsDemoUITests" */;
-			buildPhases = (
-				7160321C1C576944001CB845 /* Sources */,
-				7160321D1C576944001CB845 /* Frameworks */,
-				7160321E1C576944001CB845 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				716032221C576944001CB845 /* PBXTargetDependency */,
-			);
-			name = AWCollectionViewSlidingDoorsDemoUITests;
-			productName = AWCollectionViewSlidingDoorsDemoUITests;
-			productReference = 716032201C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -293,14 +196,6 @@
 				TargetAttributes = {
 					716031FB1C576943001CB845 = {
 						CreatedOnToolsVersion = 7.2;
-					};
-					716032141C576944001CB845 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 716031FB1C576943001CB845;
-					};
-					7160321F1C576944001CB845 = {
-						CreatedOnToolsVersion = 7.2;
-						TestTargetID = 716031FB1C576943001CB845;
 					};
 				};
 			};
@@ -318,8 +213,6 @@
 			projectRoot = "";
 			targets = (
 				716031FB1C576943001CB845 /* AWCollectionViewSlidingDoorsDemo */,
-				716032141C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests */,
-				7160321F1C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -355,20 +248,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		716032131C576944001CB845 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7160321E1C576944001CB845 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -384,36 +263,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		716032111C576944001CB845 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7160321A1C576944001CB845 /* AWCollectionViewSlidingDoorsDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7160321C1C576944001CB845 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				716032251C576944001CB845 /* AWCollectionViewSlidingDoorsDemoUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		716032171C576944001CB845 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 716031FB1C576943001CB845 /* AWCollectionViewSlidingDoorsDemo */;
-			targetProxy = 716032161C576944001CB845 /* PBXContainerItemProxy */;
-		};
-		716032221C576944001CB845 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 716031FB1C576943001CB845 /* AWCollectionViewSlidingDoorsDemo */;
-			targetProxy = 716032211C576944001CB845 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		716032081C576944001CB845 /* Main.storyboard */ = {
@@ -539,54 +389,6 @@
 			};
 			name = Release;
 		};
-		7160322D1C576944001CB845 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = AWCollectionViewSlidingDoorsDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aw.AWCollectionViewSlidingDoorsDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWCollectionViewSlidingDoorsDemo.app/AWCollectionViewSlidingDoorsDemo";
-			};
-			name = Debug;
-		};
-		7160322E1C576944001CB845 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = AWCollectionViewSlidingDoorsDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aw.AWCollectionViewSlidingDoorsDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AWCollectionViewSlidingDoorsDemo.app/AWCollectionViewSlidingDoorsDemo";
-			};
-			name = Release;
-		};
-		716032301C576944001CB845 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = AWCollectionViewSlidingDoorsDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aw.AWCollectionViewSlidingDoorsDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = AWCollectionViewSlidingDoorsDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		716032311C576944001CB845 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = AWCollectionViewSlidingDoorsDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.aw.AWCollectionViewSlidingDoorsDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = AWCollectionViewSlidingDoorsDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -604,24 +406,6 @@
 			buildConfigurations = (
 				7160322A1C576944001CB845 /* Debug */,
 				7160322B1C576944001CB845 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7160322C1C576944001CB845 /* Build configuration list for PBXNativeTarget "AWCollectionViewSlidingDoorsDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7160322D1C576944001CB845 /* Debug */,
-				7160322E1C576944001CB845 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7160322F1C576944001CB845 /* Build configuration list for PBXNativeTarget "AWCollectionViewSlidingDoorsDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				716032301C576944001CB845 /* Debug */,
-				716032311C576944001CB845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
