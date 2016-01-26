@@ -198,27 +198,6 @@
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    /*
-    NSDictionary *sectionDict = [sectionsInfo objectAtIndex:indexPath.section];
-    NSArray *items = [sectionDict valueForKey:@"items"];
-    NSDictionary *itemDict = [items objectAtIndex:indexPath.item];
-    
-    NSString *feedJSON = [itemDict valueForKey:@"feed"];
-    
-    NSString *detailVCType = [detailViewControllerInfo valueForKey:@"type"];
-    NSString *detailVCNib = [detailViewControllerInfo valueForKey:@"nib"];
-    
-    if([detailVCType isEqualToString:@"MultiGalleryDetailViewControllerScrollView"]){
-        currentDetailsVC = [[MultiGalleryDetailViewControllerScrollView alloc] initWithNibName:detailVCNib bundle:bundle andFeed:feedJSON];
-    }else{
-        NSString *detailsCellNib = [detailViewControllerInfo valueForKey:@"cellNib"];
-        NSString *detailsCellId = [detailViewControllerInfo valueForKey:@"cellId"];
-        CGFloat cellRatio = [[detailViewControllerInfo valueForKey:@"cellRatio"] floatValue];
-        currentDetailsVC = [[MultiGalleryDetailViewControllerCollectionView alloc] initWithNibName:detailVCNib bundle:bundle andFeed:feedJSON andCellNib:detailsCellNib andCellId:detailsCellId andCellRatio:cellRatio];
-    }
-    
-    [navigationController pushViewController:currentDetailsVC animated:YES];
-    */
 }
 
 
