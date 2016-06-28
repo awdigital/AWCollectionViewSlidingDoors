@@ -1,8 +1,8 @@
 # AWCollectionViewSlidingDoors
 Custom UICollectionViewLayout to create a slick vertical sliding effect.
 
-![awcollectionviewslidingdoors gif](http://www.antoinewette.com/github/awslidingdoors.gif)
 
+![awcollectionviewslidingdoors](awslidingdoors.gif)
 
 ## Usage
 There is a sample Xcode project available with two examples. Just Build & Run.
